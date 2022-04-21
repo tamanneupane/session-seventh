@@ -1,5 +1,7 @@
 package day16;
 
+import java.util.Calendar;
+
 public class Employee {
 
     private String name;
@@ -10,7 +12,7 @@ public class Employee {
     public Employee(String name, int age, float salary) {
         this.name = name;
         this.age = age;
-        this.salary = salary;
+
     }
 
     public String getName() {
@@ -21,7 +23,7 @@ public class Employee {
         return age;
     }
 
-    public float getSalary() {
+    public  float getSalary() {
         return salary;
     }
 }

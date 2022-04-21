@@ -19,7 +19,7 @@ public sealed class Manager extends Employee permits Executive {
         return totalSalary;
     }
 
-    public void fireEmployee(Employee employee){
+    protected void fireEmployee(Employee employee){
 
     }
 
