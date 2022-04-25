@@ -11,6 +11,7 @@ public class Office {
 
         Employee executive = new Executive("GHI", 35, 8000, 1000, 1000);
 
+        boss.getName();
         System.out.println(employee.getSalary());
         System.out.println(boss.getSalary());
         System.out.println(executive.getSalary());
