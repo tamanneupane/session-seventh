@@ -2,7 +2,7 @@ package day15;
 
 import day9.Address;
 
-public class User {
+public class User implements Comparable<User> {
 
     private String name;
     private String email;
@@ -69,5 +69,10 @@ public class User {
                 ", password='" + password + '\'' +
                 ", address=" + address +
                 '}';
+    }
+
+    @Override
+    public int compareTo(User o) {
+        return o.name.compareTo(this.name);
     }
 }

@@ -23,13 +23,13 @@ public class ArraySorting {
         }
 
         //This is not working. Java is confused. we will seee this thing in chapter 6
-//        User[] users = {new User("Taman", "taman.neupane@gmail.com"), new User("ABC", "abc.neupane@gmail.com")};
-//
-//        Arrays.sort(users);
-//
-//        for (User user : users) {
-//            System.out.println(user);
-//        }
+        User[] users = {new User("Taman", "taman.neupane@gmail.com"), new User("ABC", "abc.neupane@gmail.com")};
+
+        Arrays.sort(users);
+
+        for (User user : users) {
+            System.out.println(user);
+        }
 
     }
 }
