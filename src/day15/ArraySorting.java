@@ -31,5 +31,10 @@ public class ArraySorting {
             System.out.println(user);
         }
 
+//        Comparable<User> userComparable = new Comparable<User>();
+
+        Comparable<User> userComparable1 = new User("Taman", "taman.neupane@gmail.com");
+
+
     }
 }
