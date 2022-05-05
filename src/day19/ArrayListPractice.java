@@ -2,6 +2,7 @@ package day19;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class ArrayListPractice {
 
