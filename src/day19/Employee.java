@@ -3,7 +3,7 @@ package day19;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
     private String name;
     private float salary;
@@ -35,5 +35,10 @@ public class Employee {
                 ", salary=" + salary +
                 ", hireDate=" + hireDate +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Employee o) {
+        return hireDate.compareTo(o.hireDate);
     }
 }
